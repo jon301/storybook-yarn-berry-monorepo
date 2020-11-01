@@ -1,4 +1,10 @@
 {
   "name": "storybook-yarn-berry-monorepo",
-  "private": true
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "typescript": "^4.0.5"
+  }
 }
