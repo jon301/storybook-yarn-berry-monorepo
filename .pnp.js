@@ -10178,6 +10178,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["klona", [
+        ["npm:2.0.4", {
+          "packageLocation": "./.yarn/cache/klona-npm-2.0.4-6bc4e7cd86-be4a0c7841.zip/node_modules/klona/",
+          "packageDependencies": [
+            ["klona", "npm:2.0.4"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["lazy-cache", [
         ["npm:0.2.7", {
           "packageLocation": "./.yarn/cache/lazy-cache-npm-0.2.7-8dd3e8d6b1-fde942600b.zip/node_modules/lazy-cache/",
@@ -11021,6 +11030,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:17.0.1"],
             ["react-dom", "virtual:f8e77a2f43c5d8d962a62870b50d9ece3fd7d2b53497b4ebadd51fdaf595996c288290f9ea21750edec7bebc2fab5a1680ba9bb9b58d4943148198c2bfb34056#npm:17.0.1"],
             ["react-is", "npm:17.0.1"],
+            ["sass", "npm:1.28.0"],
+            ["sass-loader", "virtual:f8e77a2f43c5d8d962a62870b50d9ece3fd7d2b53497b4ebadd51fdaf595996c288290f9ea21750edec7bebc2fab5a1680ba9bb9b58d4943148198c2bfb34056#npm:10.0.4"],
             ["typescript", "patch:typescript@npm%3A4.0.5#builtin<compat/typescript>::version=4.0.5&hash=5bf698"],
             ["webpack", "virtual:f8e77a2f43c5d8d962a62870b50d9ece3fd7d2b53497b4ebadd51fdaf595996c288290f9ea21750edec7bebc2fab5a1680ba9bb9b58d4943148198c2bfb34056#npm:5.3.2"]
           ],
@@ -13508,6 +13519,48 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["micromatch", "npm:3.1.10"],
             ["minimist", "npm:1.2.5"],
             ["walker", "npm:1.0.7"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["sass", [
+        ["npm:1.28.0", {
+          "packageLocation": "./.yarn/cache/sass-npm-1.28.0-c548067d9d-b4d718512e.zip/node_modules/sass/",
+          "packageDependencies": [
+            ["sass", "npm:1.28.0"],
+            ["chokidar", "npm:3.4.3"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["sass-loader", [
+        ["virtual:f8e77a2f43c5d8d962a62870b50d9ece3fd7d2b53497b4ebadd51fdaf595996c288290f9ea21750edec7bebc2fab5a1680ba9bb9b58d4943148198c2bfb34056#npm:10.0.4", {
+          "packageLocation": "./.yarn/$$virtual/sass-loader-virtual-5e0495a9d1/0/cache/sass-loader-npm-10.0.4-e2bd742c87-ec8e0b8a38.zip/node_modules/sass-loader/",
+          "packageDependencies": [
+            ["sass-loader", "virtual:f8e77a2f43c5d8d962a62870b50d9ece3fd7d2b53497b4ebadd51fdaf595996c288290f9ea21750edec7bebc2fab5a1680ba9bb9b58d4943148198c2bfb34056#npm:10.0.4"],
+            ["@types/fibers", null],
+            ["@types/node-sass", null],
+            ["@types/sass", null],
+            ["@types/webpack", null],
+            ["fibers", null],
+            ["klona", "npm:2.0.4"],
+            ["loader-utils", "npm:2.0.0"],
+            ["neo-async", "npm:2.6.2"],
+            ["node-sass", null],
+            ["sass", "npm:1.28.0"],
+            ["schema-utils", "npm:3.0.0"],
+            ["semver", "npm:7.3.2"],
+            ["webpack", "virtual:f8e77a2f43c5d8d962a62870b50d9ece3fd7d2b53497b4ebadd51fdaf595996c288290f9ea21750edec7bebc2fab5a1680ba9bb9b58d4943148198c2bfb34056#npm:5.3.2"]
+          ],
+          "packagePeers": [
+            "@types/fibers",
+            "@types/node-sass",
+            "@types/sass",
+            "@types/webpack",
+            "fibers",
+            "node-sass",
+            "sass",
+            "webpack"
           ],
           "linkType": "HARD",
         }]
