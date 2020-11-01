@@ -1839,7 +1839,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-actions@npm:6.1.0-alpha.34, @storybook/addon-actions@npm:next":
+"@storybook/addon-actions@npm:6.1.0-alpha.34":
   version: 6.1.0-alpha.34
   resolution: "@storybook/addon-actions@npm:6.1.0-alpha.34"
   dependencies:
@@ -1906,7 +1906,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-docs@npm:6.1.0-alpha.34, @storybook/addon-docs@npm:next":
+"@storybook/addon-docs@npm:6.1.0-alpha.34":
   version: 6.1.0-alpha.34
   resolution: "@storybook/addon-docs@npm:6.1.0-alpha.34"
   dependencies:
@@ -1972,7 +1972,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-essentials@npm:next":
+"@storybook/addon-essentials@npm:6.1.0-alpha.34":
   version: 6.1.0-alpha.34
   resolution: "@storybook/addon-essentials@npm:6.1.0-alpha.34"
   dependencies:
@@ -2004,7 +2004,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-links@npm:next":
+"@storybook/addon-links@npm:6.1.0-alpha.34":
   version: 6.1.0-alpha.34
   resolution: "@storybook/addon-links@npm:6.1.0-alpha.34"
   dependencies:
@@ -2356,7 +2356,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/react@npm:next":
+"@storybook/react@npm:6.1.0-alpha.34":
   version: 6.1.0-alpha.34
   resolution: "@storybook/react@npm:6.1.0-alpha.34"
   dependencies:
@@ -9451,11 +9451,11 @@ fsevents@^1.2.7:
   dependencies:
     "@babel/core": ^7.12.3
     "@mdx-js/react": ^1.6.19
-    "@storybook/addon-actions": next
-    "@storybook/addon-docs": next
-    "@storybook/addon-essentials": next
-    "@storybook/addon-links": next
-    "@storybook/react": next
+    "@storybook/addon-actions": 6.1.0-alpha.34
+    "@storybook/addon-docs": 6.1.0-alpha.34
+    "@storybook/addon-essentials": 6.1.0-alpha.34
+    "@storybook/addon-links": 6.1.0-alpha.34
+    "@storybook/react": 6.1.0-alpha.34
     "@types/react": ^16.9.55
     "@types/react-dom": ^16.9.9
     babel-loader: ^8.1.0
